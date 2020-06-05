@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../fonts/Raleway-Medium.ttf'); 
+ 
+}
+
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url('../../fonts/Raleway-Bold.ttf'); 
+ 
+}
+
+$header-font: 'Raleway-bold', sans-serif;
+$text-font: "Raleway", sans-serif;
+
+
+

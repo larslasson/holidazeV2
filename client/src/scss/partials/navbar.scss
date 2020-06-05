@@ -1,0 +1,58 @@
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid dimgray;
+    padding: 10px 20px !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    font-family: $text-font;
+  }
+
+
+.nav-link:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transition: width 0.4s ease 0s, left 0.4s ease 0s;
+    width: 0;
+  }
+
+.nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,1) !important;
+}
+
+.navbar-brand{
+    font-family: $text-font;
+}
+
+.adminNav {
+
+  .nav-link{
+    background-color: $main-white;
+    border: none;
+  }
+
+  .nav-link:focus{
+    outline: 0;
+  }
+
+}

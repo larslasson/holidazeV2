@@ -1,0 +1,19 @@
+[
+    {
+        "establishment": "Sunset Beach",
+        "clientName": "Mike Tindall",
+        "email": "miket@gmail.com",
+        "checkin": "2019-05-03",
+        "checkout": "2019-05-05"
+    },
+    {
+        "establishment": "Sunsssset Beach",
+        "clientName": "Lars Lasson",
+        "email": "lars.lasson@gmail.com",
+        "checkin": "2020-06-05",
+        "checkout": "2020-06-10",
+        "adults": "1",
+        "children": "0",
+        "notes": "arriving at 12:00 pm"
+    }
+]
